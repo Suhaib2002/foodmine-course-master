@@ -94,7 +94,7 @@ img{
 
 .price::before{
   content: "Price: ";
-  color: darkgrey;
+  color: black;
 }
 
 button{

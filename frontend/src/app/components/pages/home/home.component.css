@@ -44,7 +44,7 @@ li a img{
 }
 
 .favorite.not{
-  color: grey;
+  color: #e7e7e7;
 }
 
 .stars{
@@ -82,7 +82,7 @@ li a img{
   position: absolute;
   bottom: 0;
   left: 0.9rem;
-  background: rgb(133, 113, 113);
+  
   padding: 0.3rem 100% 0 0;
   color: #fffbfb;
   margin-top: 0.7rem;
