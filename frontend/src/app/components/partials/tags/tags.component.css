@@ -3,6 +3,10 @@ div{
   flex-wrap: wrap;
   justify-content: center;
 }
+div :hover{
+  background:#034b3f71;
+  color: rgb(255, 255, 255);
+}
 
 div a{
   background-color: #f0f0f0;
@@ -10,5 +14,5 @@ div a{
   margin: 0.2rem 0.15rem;
   border-radius: 10rem;
   font-weight: 600;
-  color: blue;
+  color: rgb(0, 42, 28);
 }

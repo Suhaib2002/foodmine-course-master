@@ -2,7 +2,7 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: #ffffffea;
+  background-color: #919290ea;
   z-index: 10000;
   top: 0;
   left: 0;
@@ -15,9 +15,11 @@
   align-items: center;
   height: 80%;
   width: 100%;
+  color: rgb(0, 149, 119);
 }
 
 img{
+  color:  rgb(0, 149, 119);
   border-bottom: 10px solid rgb(0, 149, 119);
   width: 200px;
   height: 200px;

@@ -40,8 +40,8 @@ ul a{
 }
 
 a span{
-  background: #ff4d4d;
-  color: white;
+  background: #00250d;
+  color: rgb(170, 255, 228);
   padding: 0.1rem 0.45rem;
   border-radius: 100rem;
   font-size:0.9rem;
