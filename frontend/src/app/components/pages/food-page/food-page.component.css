@@ -73,7 +73,7 @@ img{
   margin: 0.2rem 0.15rem;
   border-radius: 10rem;
   font-weight: 600;
-  color: blue;
+  color: rgb(0, 0, 0);
 }
 
 .cook-time{
@@ -89,7 +89,7 @@ img{
 .price{
   font-size: 1.8rem;
   margin: 2rem 2rem 2rem 0;
-  color: green;
+  color: rgb(255, 255, 255);
 }
 
 .price::before{
@@ -99,7 +99,7 @@ img{
 
 button{
   color: white;
-  background: #e72929;
+  background: #005a4e;
   border: none;
   font-size: 1.2rem;
   padding: 1rem;

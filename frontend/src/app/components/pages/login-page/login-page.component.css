@@ -5,6 +5,9 @@ align-items: center;
 height: 100%;
 margin-top: 3rem;
 }
+.container :hover{
+  color:black;
+}
 
 .details{
   width: 28rem;
@@ -17,11 +20,14 @@ form{
 }
 
 .error-list{
-  color: red;
+  color: rgb(255, 50, 50);
 }
 
 .register{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.register :hover{
+  color:black;
 }
