@@ -9,8 +9,8 @@ export interface LatLng{
 
 export const LatLngSchema = new Schema<LatLng>(
     {
-        lat: {type: String, required: true},
-        lng: {type: String, required: true},
+        lat: {type: String, required: false},
+        lng: {type: String, required: false},
     }
 );
 
@@ -45,7 +45,7 @@ export interface Order{
   const orderSchema = new Schema<Order>({
       name: {type: String, required: true},
       address: {type: String, required: true},
-      addressLatLng: {type: LatLngSchema, required: true},
+      addressLatLng: {type: LatLngSchema, required: false},
       paymentId: {type: String},
       totalPrice: {type: Number, required: true},
       items: {type: [OrderItemSchema], required: true},

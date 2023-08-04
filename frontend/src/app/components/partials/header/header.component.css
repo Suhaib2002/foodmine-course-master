@@ -13,7 +13,7 @@ a{
 
 a:hover{
   background:#034b3f71;
-  color: rgb(255, 255, 255);
+  color: rgb(139, 232, 255);
   cursor: pointer;
 }
 
@@ -24,7 +24,7 @@ a:hover{
 }
 
 a.logo{
-  font-weight:bolder;
+  font-weight: bold;
   padding: 1rem;
 }
 
@@ -40,8 +40,8 @@ ul a{
 }
 
 a span{
-  background: #00250d;
-  color: rgb(170, 255, 228);
+  background: #ff4d4d;
+  color: white;
   padding: 0.1rem 0.45rem;
   border-radius: 100rem;
   font-size:0.9rem;
@@ -54,12 +54,13 @@ a span{
 .menu{
   position:absolute;
   z-index:1;
-  background:whitesmoke;
+  background:rgb(0, 106, 114);
   display: none;
 }
 
 .menu-container:hover .menu{
   display: block;
+  color:black
 }
 
 .menu a{

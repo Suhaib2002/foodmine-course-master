@@ -19,14 +19,14 @@
 }
 
 img{
-  color:  rgb(0, 149, 119);
-  border-bottom: 10px solid rgb(0, 149, 119);
+  color:  rgb(239, 77, 77);
+  border-bottom: 10px solid rgb(219, 61, 61);
   width: 200px;
   height: 200px;
 }
 
 h1{
-color: rgb(0, 149, 119);
+color: rgb(235, 86, 86);
 text-transform: lowercase;
 }
 
